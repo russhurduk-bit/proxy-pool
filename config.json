@@ -1,0 +1,34 @@
+{
+  "webshare": {
+    "api_key": "<WEBSHARE_API_KEY>",
+    "username": "<USERNAME>",
+    "password": "<PASSWORD>"
+  },
+  "swiss": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "username": "<USERNAME>",
+    "password": "<PASSWORD>",
+    "protocol": "socks5h",
+    "country": "CH",
+    "tags": ["youtube", "scraping", "reliable"]
+  },
+  "proxies": [
+    {
+      "host": "0.0.0.0",
+      "port": 6754,
+      "username": "<USERNAME>",
+      "password": "<PASSWORD>",
+      "country": "GB",
+      "tags": ["youtube", "scraping", "osint", "telegram"]
+    },
+    {
+      "host": "0.0.0.0",
+      "port": 6742,
+      "username": "<USERNAME>",
+      "password": "<PASSWORD>",
+      "country": "ES",
+      "tags": ["youtube", "scraping", "osint", "telegram"]
+    }
+  ]
+}
